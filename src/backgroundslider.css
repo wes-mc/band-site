@@ -5,9 +5,12 @@
   display: none;
 }
 .imgWrapper {
+  z-index: -100;
+  object-fit: cover;
   width: 100%;
   height: 100vh;
 }
+
 @keyframes blender {
   0% {
     opacity: 0;
@@ -25,6 +28,7 @@
   }
 }
 .imageActive {
+  z-index: -100;
   float: left;
   width: 100vw;
   height: 100vh;

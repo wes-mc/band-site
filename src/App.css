@@ -1,24 +1,23 @@
 .App {
-  background-color: #282c34;
-  top: 0px;
+  z-index: 200;
+  height: 100vh;
+  top: 50px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  height: 100vh;
 }
 
 .ul-header {
-  position: absolute;
+  margin-top: 0px;
+  margin-bottom: 2.5em;
   text-align: right;
   font-size: calc(5px + 2vmin);
   list-style-type: none;
   color: white;
-  padding: 15px;
+  padding: 10px;
 }
 
 .main-text {
-  position: flex;
-  margin-top: 0px;
   text-align: center;
   flex-direction: column;
   align-items: center;
@@ -28,7 +27,6 @@
 }
 
 .ul-menu {
-  position: absolute;
   margin-top: -55px;
   text-align: center;
   font-size: calc(15px + 2vmin);
@@ -45,11 +43,13 @@
 }
 
 .ul-menu li a {
+  z-index: 100;
   color: inherit;
   text-decoration: none;
 }
 
 .ul-menu li a:hover {
+  z-index: 100;
   color: #00a0c6;
   text-decoration: none;
   cursor: pointer;
