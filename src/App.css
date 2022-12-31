@@ -1,0 +1,64 @@
+.App {
+  background-color: #282c34;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 100vh;
+}
+
+.ul-header {
+  position: absolute;
+  text-align: right;
+  font-size: calc(5px + 2vmin);
+  list-style-type: none;
+  color: white;
+  padding: 15px;
+}
+
+.main-text {
+  position: flex;
+  margin-top: 0px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(75px + 2vmin);
+  color: white;
+}
+
+.ul-menu {
+  position: absolute;
+  margin-top: -55px;
+  text-align: center;
+  font-size: calc(15px + 2vmin);
+  list-style-type: none;
+  color: white;
+}
+
+.ul-menu li {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding-right: 55px;
+}
+
+.ul-menu li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ul-menu li a:hover {
+  color: #00a0c6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bg {
+  height: 100%;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
