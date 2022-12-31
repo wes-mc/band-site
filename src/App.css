@@ -1,5 +1,4 @@
 .App {
-  z-index: 200;
   height: 100vh;
   top: 50px;
   right: 0px;
@@ -19,7 +18,7 @@
 
 .main-text {
   text-align: center;
-  flex-direction: column;
+  text-shadow: 3px 4px #000000;
   align-items: center;
   justify-content: center;
   font-size: calc(75px + 2vmin);
@@ -35,7 +34,6 @@
 }
 
 .ul-menu li {
-  display: inline-block;
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -53,12 +51,4 @@
   color: #00a0c6;
   text-decoration: none;
   cursor: pointer;
-}
-
-.bg {
-  height: 100%;
-  position: absolute;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
