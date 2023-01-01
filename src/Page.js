@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import img1 from './images/bandgroup.jpg'
 import img2 from './images/calebgoofy.jpg'
 import img3 from './images/drumpov.jpg'
-import { NodeExpandOutlined } from '@ant-design/icons';
+import bGvideo from './videos/short.MOV'
 import Sidebar from './Sidebar';
 import Socials from './Socials';
 
@@ -31,7 +31,8 @@ const Page = () => {
   });
 
   return (
-    <div className="App" style={{ backgroundImage: `url(${images[currentImage]})` }}>
+    <div>
+      <video autoPlay loop muted className="video"><source src={bGvideo} type="video/mp4" /> </video>
       <header>
         <meta name="viewport" content="width=device-width, intial-scale=1.0" />
         <ul className='ul-header'>
