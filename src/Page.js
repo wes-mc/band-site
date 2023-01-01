@@ -32,7 +32,7 @@ const Page = () => {
 
   return (
     <div>
-      <video autoPlay loop muted className="video"><source src={bGvideo} type="video/mp4" /> </video>
+      <video autoPlay loop muted playsInline className="video"><source src={bGvideo} type="video/mp4" /> </video>
       <header>
         <meta name="viewport" content="width=device-width, intial-scale=1.0" />
         <ul className='ul-header'>
