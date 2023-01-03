@@ -9,27 +9,6 @@ import Socials from './Socials';
 const Page = () => {
   const images = [img1, img2, img3];
 
-  const [currentImage, setCurrentImage] = useState(0)
-
-  let sliderInterval = useRef();
-
-  let cycleImages = () => {
-    if (currentImage < images.length - 1) {
-      setCurrentImage(currentImage + 1);
-    } else {
-      setCurrentImage(0);
-    }
-  };
-
-  useEffect(() => {
-    sliderInterval = setInterval(() => {
-      cycleImages();
-    }, 7000);
-    return () => {
-      clearInterval(sliderInterval);
-    };
-  });
-
   return (
     <div>
       <video autoPlay loop muted playsInline className="video"><source src={bGvideo} type="video/mp4" /> </video>
@@ -46,6 +25,5 @@ const Page = () => {
     </div>
   );
 };
-
 
 export default Page
