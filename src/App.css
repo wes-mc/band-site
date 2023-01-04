@@ -86,3 +86,15 @@
   font-size: x-large;
   font-weight: 400;
 }
+
+.footer{
+  width: 100%;
+  position: fixed;
+  bottom: 3%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  font-size: medium;
+  font-weight: 400;
+}
