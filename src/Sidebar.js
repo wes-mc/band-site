@@ -32,7 +32,7 @@ const Sidebar = () => {
                 <Button
                     key="link"
                     target='_blank'
-                    href="https://calendly.com"
+                    href="https://calendly.com/pioneerpalace/pioneer-palace-gig"
                     type="primary"
                     onClick={handleOk}
                 >
