@@ -1,6 +1,7 @@
 {
   "name": "band-site",
-  "version": "0.1.0",
+  "homepage": "https://pioneerpalaceband.com",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.8.0",
