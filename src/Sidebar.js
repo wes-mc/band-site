@@ -39,7 +39,7 @@ const Sidebar = () => {
                     Book Now!
                 </Button>,
             ]}>
-                <p>A local band from Spartanburg, SC ready to fulfill live music needs for your venue. Example venues include bars, parties, weddings, etc! Contact us on any platform seen on this site for pricing and availability. We hope to hear from you soon!</p>
+                <p>A local band from Spartanburg, SC playing a variety of music including 80s to modern-day hits. Book us for your bar, party, wedding, or venue. We look forward to hearing from you soon!</p>
             </Modal>
         </div>
     );
