@@ -9,8 +9,7 @@ const TRACKING_ID = "G-JLH78CCXBN";
 
 function App() { 
     ReactGA.initialize(TRACKING_ID);
-    ReactGA.pageview(window.location.pathname + window.location.search);
-
+    ReactGA.pageview(window.location.pathname + window.location.search);    
     return (
         <div>
             <video autoPlay loop muted playsInline className="video"><source src={bGvideo} type="video/mp4" /> </video>
