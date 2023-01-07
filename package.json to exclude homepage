@@ -1,6 +1,5 @@
 {
   "name": "band-site",
-  "homepage": "https://pioneerpalaceband.com",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
