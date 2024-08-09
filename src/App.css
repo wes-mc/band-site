@@ -37,6 +37,7 @@
 
 .main-text {
   margin-top: -60px;
+  margin-bottom: 0px;
   text-align: center;
   text-shadow: 3px 4px #000000;
   align-items: center;
@@ -109,11 +110,11 @@
 .footer{
   width: 100%;
   position: fixed;
-  bottom: 3%;
+  bottom: 1%;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: #ffffff;
-  font-size: medium;
-  font-weight: 400;
+  font-size: x-small;
+  font-weight: 500;
 }
