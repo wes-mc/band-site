@@ -6,6 +6,10 @@ import { Button, List } from 'antd'
 
 const data = [
   {
+    title: 'Wings Etc. - 8/30/24',
+    address: "2644 Boiling Springs Rd Suite A, Boiling Springs, SC 29316"
+  },
+  {
     title: 'Two 95 Food & Spirits - 10/4/24',
     address: "609 Southport Rd, Roebuck, SC 29376"
   },
