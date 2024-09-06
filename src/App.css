@@ -62,7 +62,7 @@
 }
 
 .ant-list-item-meta-description {
-  font-size: small;
+  font-size: medium !important;
   color: #F4D504 !important;
 }
 

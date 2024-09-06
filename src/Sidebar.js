@@ -21,7 +21,7 @@ const Sidebar = () => {
                 <a name="About" onClick={showModal} className="menu-item">
                     About
                 </a>
-                <a name="Contact" href="mailto:pioneerpalacemusic@gmail.com?Subject=Inquiry" className="menu-item">
+                <a name="Contact" href="tel:+8647064552" className="menu-item">
                     Contact
                 </a>
             </Menu>
@@ -39,7 +39,7 @@ const Sidebar = () => {
                     Book Now!
                 </Button>,
             ]}>
-                <p>A local band from Spartanburg, SC ready to fulfill live music needs for your venue. Example venues include bars, parties, weddings, etc! Contact us on any platform seen on this site for pricing and availability. We hope to hear from you soon!</p>
+                <p>A local 5-piece band from Spartanburg, SC ready to fulfill live music needs for your venue. Example venues include bars, parties, weddings, etc! Contact us on any platform seen on this site for pricing and availability. We hope to hear from you soon!</p>
             </Modal>
         </div>
     );

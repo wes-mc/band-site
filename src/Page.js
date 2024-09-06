@@ -6,19 +6,19 @@ import { Button, List } from 'antd'
 
 const data = [
   {
-    title: 'Wings Etc. - 8/30/24',
+    title: 'Wings Etc. 8/30/24 @7:30pm',
     address: "2644 Boiling Springs Rd Suite A, Boiling Springs, SC 29316"
   },
   {
-    title: 'Two 95 Food & Spirits - 10/4/24',
+    title: 'Two 95 Food & Spirits 10/4/24 @7:30pm',
     address: "609 Southport Rd, Roebuck, SC 29376"
   },
   {
-    title: 'Sycamore Brewing - 10/5/24',
+    title: 'Sycamore Brewing 10/5/24 @5pm',
     address: "2151 Hawkins St, Charlotte, NC 28203"
   },
   {
-    title: 'Two 95 Food & Spirits. - 10/18/24',
+    title: 'Two 95 Food & Spirits. 10/18/24 @7:30pm',
     address: "609 Southport Rd, Roebuck, SC 29376"
   },
 ];
