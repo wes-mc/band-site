@@ -21,7 +21,7 @@ const Sidebar = () => {
                 <a name="About" onClick={showModal} className="menu-item">
                     About
                 </a>
-                <a name="Contact" href="tel:+8647064552" className="menu-item">
+                <a name="Contact" href="tel:+18647064552" className="menu-item">
                     Contact
                 </a>
             </Menu>
